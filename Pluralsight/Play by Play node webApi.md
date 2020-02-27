@@ -41,3 +41,15 @@ Use `body-parser` to get the body of a request
 
 When you require express it is a singleton for your entire app
 
+`MongoDb` is a Document Store - a NoSQL database. Can install it via homebrew, or on windows you could use chocolaty.
+  - Homebrew is a package manager for mac, Chocolatey is one for windows
+  - Use command `brew` in terminal for homebrew
+  - run `brew tap mongodb/brew`
+  - mongoose is a node module that allows you to talk to easily access mongodb
+
+  We're using node to talk to express, and express to talk to mongoose, and mongoose is talking to mongoDb
+
+
+
+
+
