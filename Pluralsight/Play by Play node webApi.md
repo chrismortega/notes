@@ -36,3 +36,8 @@ lodash is a useful library for performing operations on arrays and collections. 
 MEAN stack - Mongo Express Angular Node
 
 require can also be used with a path, in which case it loads a module from your own dang local code. You can pass a parameter to a required module, in which case that module should take in that parameter and use it. For intance, if we're creating routes, we need to take in the express app on which to create them.
+
+Use `body-parser` to get the body of a request
+
+When you require express it is a singleton for your entire app
+
